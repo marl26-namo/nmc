@@ -32,10 +32,10 @@ if (!fs.existsSync(uploadsDir)) {
 
 // MySQL Connection Pool
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || 'localhost',
-  user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'clinic',
+  host:'sql110.infinityfree.com',
+  user: 'if0_39409244',
+  password:'r0Clx57EEAhvlK',
+  database: 'if0_39409244_clinic',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
